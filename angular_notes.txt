@@ -1,0 +1,31 @@
+Angular is a Java Script framework for building single page applications
+->Angular 1 also called AngularJS  developed by Googles and it uses Java Script
+->Angular 2 onwards it is completly different from angularjs and it uses typescripts
+
+node modules --> no need to commit to repo
+package.json -> it will have the necessary dependencies
+angular.json -> all the application related configuration
+
+flow -->
+index.html -> main.ts -> app.module
+
+app.module: every component you created must be declare here
+
+
+Data binding-- {{}}
+
+property Binding -- [disabled]="allowUser" or [formGroup]="formGroup"
+
+event Binding -- (click)
+
+$event -- using this we can send data from an eventBinding  -- (input)="onUpdate($event)"
+
+for *ngIf else condition we need to create a <ng-template #id>content<ng-template>
+
+*ngFor="let x of array"
+
+debugging angular -- augury
+
+
+sending data from parent component to child -- @Input('alias name')
+sending data from child to parent  -- @Output() = new EventEmitter<>()
