@@ -16,6 +16,11 @@ Angular is a Java Script framework for building single page applications
 -> ts has some oops features like interfaces,generics 
 -> in ts we can catch errors at compile time instead of run time
 
+*Adding bootstrap
+1.install bootstrap
+-- npm i --save bootstrap
+2.Add path to angular.json in styles array
+
 Data binding-- {{}}
 
 property Binding -- [disabled]="allowUser" or [formGroup]="formGroup"
