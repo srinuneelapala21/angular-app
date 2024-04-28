@@ -2,15 +2,19 @@ Angular is a Java Script framework for building single page applications
 ->Angular 1 also called AngularJS  developed by Googles and it uses Java Script
 ->Angular 2 onwards it is completly different from angularjs and it uses typescripts
 
-node modules --> no need to commit to repo
-package.json -> it will have the necessary dependencies
-angular.json -> all the application related configuration
+->node modules --> no need to commit to repo
+->package.json -> it will have the necessary dependencies
+->angular.json -> all the application related configuration
 
-flow -->
-index.html -> main.ts -> app.module
+->application bootstrap flow --> index.html -> main.ts -> app.module.
+->AppModule -> it is the root module of every angular application
+->app.module: every component you created must be declare here
 
-app.module: every component you created must be declare here
-
+*TypeScript
+->TypeScript is the Super Set of JavaScript..So any valid Javascript code is also compiled by typescript compiler
+->ts is strongly typed where as js is dynamically typed
+-> ts has some oops features like interfaces,generics 
+-> in ts we can catch errors at compile time instead of run time
 
 Data binding-- {{}}
 
