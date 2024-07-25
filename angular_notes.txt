@@ -10,13 +10,13 @@ Angular is a Java Script framework for building single page applications
 ->AppModule -> it is the root module of every angular application
 ->app.module: every component you created must be declare here
 
-*TypeScript
+###TypeScript###
 ->TypeScript is the Super Set of JavaScript..So any valid Javascript code is also compiled by typescript compiler
 ->ts is strongly typed where as js is dynamically typed
 -> ts has some oops features like interfaces,generics 
 -> in ts we can catch errors at compile time instead of run time
 
-*Adding bootstrap
+###Adding bootstrap###
 1.install bootstrap
 -- npm i --save bootstrap
 2.Add path to angular.json in styles array
@@ -38,3 +38,16 @@ debugging angular -- augury
 
 sending data from parent component to child -- @Input('alias name')
 sending data from child to parent  -- @Output() = new EventEmitter<>()
+
+
+
+
+###standalone components###
+- stand alone components are special type of components which doesn't required to be declared in ngModule
+- reduce boiler plate code of declaring them in ngModules
+-simpler development
+- we can mix standalone and standard components
+
+###Directive###
+-A directive is an instruction to the DOM
+-component directive,structural,attribute
