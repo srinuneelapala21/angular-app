@@ -35,9 +35,10 @@ for *ngIf else condition we need to create a <ng-template #id>content<ng-templat
 
 debugging angular -- augury
 
-
-sending data from parent component to child -- @Input('alias name')
-sending data from child to parent  -- @Output() = new EventEmitter<>()
+##sending data from one component to another##
+- sending data from parent component to child  using -- @Input('alias name') and custom property bindign
+- sending data from child to parent  using -- @Output() and custom event binding
+- sending data between sibling/non-related components      --services or 
 
 
 
