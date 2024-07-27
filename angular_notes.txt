@@ -38,7 +38,7 @@ debugging angular -- augury
 ##sending data from one component to another##
 - sending data from parent component to child  using -- @Input('alias name') and custom property bindign
 - sending data from child to parent  using -- @Output() and custom event binding
-- sending data between sibling/non-related components      --services or 
+- sending data between sibling/non-related components      --services or  @Output(sib-1) ->parent -> @Input(sib-2)
 
 
 
